@@ -28,4 +28,5 @@ Launch SecureCRT from either your DE (Desktop Environment like Gnome, KDE, etc) 
 
 See where it's installed
 > which SecureCRT
-      
+    
+Should result in "/usr/bin/SecureCRT"
