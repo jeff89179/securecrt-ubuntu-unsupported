@@ -4,6 +4,9 @@ Install SecureCRT on non-LTS Ubuntu
 
 Once you download the SecureCRT deb file to your unsupported (non-LTS) Ubuntu PC, you need to install a couple things to get it working...
 
+### Ubuntu 20.10 (PENDING)
+  - I have not tried this at all yet.
+
 ### Ubuntu 21.04 (PENDING)
 Requirements:
   - I believe this was the same as 21.10 below but I don't remember if it needs libxcb-xinerama0 or if it's already installed. I'll come back to this.
