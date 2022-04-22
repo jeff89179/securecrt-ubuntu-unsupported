@@ -4,8 +4,7 @@ Install SecureCRT on non-LTS Ubuntu
 
 Once you download the SecureCRT deb file to your unsupported (non-LTS) Ubuntu PC, you need to install a couple things to get it working...
 
-### Ubuntu 20.10 (PENDING)
-  - I have not tried this at all yet.
+### Ubuntu 20.10 (NOT TESTED, NOT INTENDING TO TEST)
 
 ### Ubuntu 21.04 (PENDING)
 Requirements:
@@ -21,6 +20,13 @@ Requirements:
 > wget http://archive.ubuntu.com/ubuntu/pool/main/i/icu/libicu66_66.1-2ubuntu2_amd64.deb
 
 > sudo dpkg -i ~/Downloads/libicu66_66.1-2ubuntu2_amd64.deb
+
+### Ubuntu 22.04
+Requirements:
+  - libssl1.1_1.1.1l-1ubuntu1.2_amd64.deb https://ubuntu.pkgs.org/21.10/ubuntu-updates-main-amd64/libssl1.1_1.1.1l-1ubuntu1.2_amd64.deb.html
+> cd ~/Downloads
+> wget http://archive.ubuntu.com/ubuntu/pool/main/o/openssl/libssl1.1_1.1.1l-1ubuntu1.2_amd64.deb
+> sudo dpkg -i ~/Downloads/libssl1.1_1.1.1l-1ubuntu1.2_amd64.deb
 
 Install SecureCRT:
 > sudo dpkg -i ~/Downloads/scrt-9.1.0-2579.ubuntu20-64.x86_64.deb (or whatever deb version you have)
