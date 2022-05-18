@@ -23,10 +23,10 @@ Requirements:
 
 ### Ubuntu 22.04
 Requirements:
-  - libssl1.1_1.1.1l-1ubuntu1.2_amd64.deb https://ubuntu.pkgs.org/21.10/ubuntu-updates-main-amd64/libssl1.1_1.1.1l-1ubuntu1.2_amd64.deb.html
+  - libssl1.1_1.1.1l-1ubuntu1.3_amd64.deb https://ubuntu.pkgs.org/21.10/ubuntu-updates-main-amd64/libssl1.1_1.1.1l-1ubuntu1.3_amd64.deb.html
 > cd ~/Downloads
-> wget http://archive.ubuntu.com/ubuntu/pool/main/o/openssl/libssl1.1_1.1.1l-1ubuntu1.2_amd64.deb
-> sudo dpkg -i ~/Downloads/libssl1.1_1.1.1l-1ubuntu1.2_amd64.deb
+> wget http://archive.ubuntu.com/ubuntu/pool/main/o/openssl/libssl1.1_1.1.1l-1ubuntu1.3_amd64.deb
+> sudo dpkg -i ~/Downloads/libssl1.1_1.1.1l-1ubuntu1.3_amd64.deb
 
 Install SecureCRT:
 > sudo dpkg -i ~/Downloads/scrt-9.1.0-2579.ubuntu20-64.x86_64.deb (or whatever deb version you have)
